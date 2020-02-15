@@ -11,7 +11,7 @@ for i in range(n):
 		if number_in_row[number_index] != number_in_row[number_index - 1]:
 			new_number += "%d%s" % (digit_counter, number_in_row[number_index - 1])
 			digit_counter = 0
-	new_nomber += "%d%s" % (digit_counter + 1, number_in_row[-1] #Last number case
+	new_number += "%d%s" % (digit_counter + 1, number_in_row[-1] #Last number case
 	print(new_number)
 	number_in_row = new_number
 			
