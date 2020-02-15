@@ -1,1 +1,12 @@
 Start test for work in git
+
+#First number to start with
+number_in_row = "1"
+#Show first n numbers on the row
+for i in range(n):
+	new_nomber = "" #Themp for the new nomber
+	digit_counter = 0 #Counter for digit changing
+	for number_index in range(1, len(number_in_row)):
+		digit_counter += 1
+		if number_in_row[number_index] != number_in_row[number_index - 1]:
+			
